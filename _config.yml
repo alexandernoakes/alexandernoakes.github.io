@@ -1,1 +1,39 @@
-theme: jekyll-theme-minimal
+# Site
+name: Alexander Noakes
+description: PLace to self publish
+meta_description: "Alexander Noakes, Ideas, Albums and ambitions"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+paginate: 15
+baseurl: /
+# google_analytics: ''
+# disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  alexander:
+    name: Alexander
+    display_name: Alexander
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: alex.noakes@gmail.com
+    web: https://www.alexandernoakes.github.io
+    twitter: https://twitter.com/alexandernoakes
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
